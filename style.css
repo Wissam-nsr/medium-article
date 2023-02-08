@@ -1,0 +1,36 @@
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto}
+
+  body {
+    font-family: 'Lora', serif;
+  }
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.link-medium a:hover {
+  background-image: linear-gradient(to bottom, rgb(167, 199, 178, 1), rgba(167, 199, 178, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 15px;
+  font-style: italic;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 200px;
+  }
+}
